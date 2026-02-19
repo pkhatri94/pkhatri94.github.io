@@ -214,17 +214,6 @@ body {
 <body>
 <div class="figure">
 
-  <div class="fig-label">Figure 1 | Spatial Omics Autocorrelation Aware Resampling (SOAAR) workflow for testing spatial ligand–receptor co-expression</div>
-  <div class="fig-caption">
-    Overview of the SOAAR pipeline for spatial transcriptomics data.
-    <b>(A–C)</b> Three inputs: a spatial expression matrix, a ligand–receptor pair list, and a spatial weights graph.
-    <b>(D)</b> Observed bivariate Moran's I computed for each interacting pair.
-    <b>(E–F)</b> The spatial weights matrix is doubly centered and eigen-decomposed; features are correlated with eigenvectors to form <b>R</b>.
-    <b>(G1–G2)</b> Feature–eigenvector correlations are randomized under either a sign-flip or angle-rotation strategy.
-    <b>(H)</b> Resampled expression is reconstructed via rank matching and a null Ĩ is computed.
-    <b>(J)</b> Repeating builds a null distribution; empirical p-values are derived from the tail area beyond I<sub>obs</sub>.
-  </div>
-
   <!-- ══════════════════════════════════
        ROW 1 — Inputs + Observed I
   ══════════════════════════════════ -->
